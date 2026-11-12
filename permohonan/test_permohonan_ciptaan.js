@@ -17,7 +17,7 @@ async function runTests() {
     const outPdfDir = path.resolve(__dirname, '../output-pdf');
     const templatePath = path.resolve(
         __dirname,
-        'permohonan-pendaftaran-ciptaan.docx'
+        'surat-permohonan-pendaftaran-ciptaan.docx'
     );
 
     fs.mkdirSync(outDocxDir, { recursive: true });
